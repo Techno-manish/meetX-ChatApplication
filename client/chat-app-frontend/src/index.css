@@ -1,0 +1,36 @@
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.chat-container {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.messages {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
